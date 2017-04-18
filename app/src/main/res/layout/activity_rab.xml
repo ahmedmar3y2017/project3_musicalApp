@@ -4,13 +4,12 @@
     android:id="@+id/activity_rab"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.ahmed.project3_musicalapp.rabActivity"
-    android:orientation="vertical"
-    >
+    tools:context="com.example.ahmed.project3_musicalapp.rabActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -26,50 +25,56 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginTop="50dp"
+        android:orientation="horizontal"
 
         >
 
         <Button
+            android:id="@+id/homerab"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Local .."
-            android:layout_weight="1"
             android:layout_marginRight="10dp"
-            />
+            android:layout_weight="1"
+            android:text="Home .." />
+
         <Button
+            android:id="@+id/localrab"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Local .."
             android:layout_weight="1"
-            />
+            android:text="Local .." />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginTop="30dp"
+        android:orientation="horizontal"
 
         >
 
         <Button
+            android:id="@+id/musicerab"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Local .."
-            android:layout_weight="1"
             android:layout_marginRight="10dp"
-            />
+            android:layout_weight="1"
+            android:text="Music .." />
+
         <Button
+            android:id="@+id/romanceerab"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Local .."
             android:layout_weight="1"
-            />
+            android:text="Romance .." />
 
     </LinearLayout>
-
 
 
 </LinearLayout>

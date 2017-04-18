@@ -33,13 +33,16 @@
         >
 
         <Button
+            android:id="@+id/homeromance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Local .."
+            android:text="Home .."
             android:layout_weight="1"
             android:layout_marginRight="10dp"
             />
         <Button
+            android:id="@+id/localromance"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Local .."
@@ -56,16 +59,20 @@
         >
 
         <Button
+            android:id="@+id/rabromance"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Local .."
+            android:text="Rab .."
             android:layout_weight="1"
             android:layout_marginRight="10dp"
             />
         <Button
+            android:id="@+id/musicromance"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Local .."
+            android:text="Music .."
             android:layout_weight="1"
             />
 

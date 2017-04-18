@@ -52,6 +52,7 @@ public class musicActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i=new Intent(musicActivity.this,romanceActivity.class);
                 startActivity(i);
+
             }
         });
 
