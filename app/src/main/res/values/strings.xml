@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HomeScreen</string>
+    <string name="Local">Local Screen</string>
+    <string name="Music">Music Screen</string>
+    <string name="Rab">Rab Screen</string>
+    <string name="Romance">Romance Screen</string>
+</resources>
